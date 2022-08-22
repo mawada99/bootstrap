@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   /* overflow: hidden; */
+}
+.backgr{
+    background-image: url(/image/hero-bg.png);
+     background-size: 1920px 630px;
+}
+.spica-ba{
+    border: 1px solid rgb(225, 225, 225);
+    background-color: rgba(81, 81, 81, 0.565) !important;
+    border-radius: 20px;
+}
+.nobord{
+border: none !important;
+}
+.card-hover1 :hover{
+    background-color: rgba(81, 81, 81, 0.565) !important;
+}
+.hit{
+    height: 300px !important;
+}
+.opacity-transition:hover {
+    opacity: 1 !important;
+}
+.mbnag{
+margin-bottom:-1.2rem !important;
+}
+.tbp {
+    top: 320px!important;
+
+} 
+
+.tbl{
+      left: 56px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+    width: 3rem !important;
+    height: 3rem !important;
+    /* color:white !important; */
+     border-radius: 50%;
+    background-color: rgba(81, 81, 81, 0.565) !important;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 75%;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+.spicon i:hover{
+
+    color: orange;
+
+
+}
+.bpostion a{
+    position: fixed;
+    top :88%;
+    left: 92%;
+    color: white !important;
+    background-color:rgba(130, 130, 131, 0.62);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    display:none;
+    opacity: 100%;
+
+}
+.ops{
+    opacity: 100% !important;
+}
+@media only screen and (max-width: 800px) {
+    .bpostion{
+        display: none;
+        
+    }
+   
+  }
+  
